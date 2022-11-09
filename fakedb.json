@@ -3,7 +3,7 @@
         "recipe_id": 1,
         "rating": 4.5,
         "total_view": 40,
-        "recipe-name": "Chicken Tikka",
+        "recipe_name": "Chicken Tikka",
         "price": 700,
         "cook": {
             "name": "Salt Bee",
@@ -16,7 +16,7 @@
         "recipe_id": 2,
         "rating": 5,
         "total_view": 30,
-        "recipe-name": "Chicken Kiev",
+        "recipe_name": "Chicken Kiev",
         "price": 300,
         "cook": {
             "name": "Salt Bee",
@@ -29,7 +29,7 @@
         "recipe_id": 3,
         "rating": 3.5,
         "total_view": 45,
-        "recipe-name": "Java Script",
+        "recipe_name": "Sandwich chicken",
         "price": 500,
         "cook": {
             "name": "Salt Bee",
@@ -42,7 +42,7 @@
         "recipe_id": 4,
         "rating": 4.5,
         "total_view": 45,
-        "recipe-name": "Grilled Chicken",
+        "recipe_name": "Grilled Chicken",
         "price": 700,
         "cook": {
             "name": "Salt Bee",
@@ -55,7 +55,7 @@
         "recipe_id": 5,
         "rating": 4.5,
         "total_view": 80,
-        "recipe-name": "Chicken Fry",
+        "recipe_name": "Chicken Fry",
         "price": 900,
         "cook": {
             "name": "Salt Bee",
@@ -68,7 +68,7 @@
         "recipe_id": 6,
         "rating": 4.5,
         "total_view": 50,
-        "recipe-name": "Roast Chicken",
+        "recipe_name": "Roast Chicken",
         "price": 700,
         "cook": {
             "name": "Salt Bee",
