@@ -24,7 +24,7 @@ async function run() {
         
         app.get('/recipes', async (req, res) => {
             const query = {};
-            const cursor = recipeCollection.find(query);
+            const cursor = recipeCollection.find(query).sort( { _id: -1 } );
             const recipe = await cursor.toArray();
             res.send(recipe);
         });
@@ -94,8 +94,15 @@ async function run() {
         app.put('/review/:id', async(req, res) => {
             const id = req.params.id;
             const filter = {_id: ObjectId(id)};
-            const updatedReview = req.body;
-            console.log(updatedReview);
+            const review = req.body;
+            const option = {upsert: true};
+            const updatedReview = {
+                $set: {
+                    review: review.review
+                }
+            }
+            const result = await reviewCollection.updateOne(filter, updatedReview, option);
+            res.send(result);
         })
 
 
